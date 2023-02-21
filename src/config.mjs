@@ -7,9 +7,9 @@ const CONFIG = {
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
+  title: 'GTA Firestop',
   description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+    'Welcome to FireStop Solutions, your one-stop-shop for all your firestopping needs in the Greater Toronto Area! Our company specializes in providing high-quality firestop products and services to ensure the safety and protection of your commercial, industrial, or residential property. With over 20 years of industry experience, our team of experts is dedicated to providing you with the best possible solutions that meet your specific requirements and budget. From fire-rated sealants and coatings to firestop systems and smoke barriers, we offer a wide range of products from leading manufacturers to ensure that your property is always up to code and protected against fire hazards. Contact us today to learn more about our products and services, and let us help you safeguard your property against the threat of fire!',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
@@ -28,7 +28,7 @@ const CONFIG = {
   googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 
   blog: {
-    disabled: false,
+    disabled: true,
     postsPerPage: 4,
 
     post: {

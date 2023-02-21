@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink,  getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -52,13 +52,13 @@ export const headerData = {
       text: 'Widgets',
       href: '#',
     },
-    {
-      text: 'Blog',
-      href: getBlogPermalink(),
-    },
+    // {
+    //   text: 'Blog',
+    //   href: getBlogPermalink(),
+    // },
   ],
   actions: [
-    { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
+    { type: 'button', text: 'Shop now', href: 'https://ehp.ca/search?q=firestop' }
   ],
 };
   
