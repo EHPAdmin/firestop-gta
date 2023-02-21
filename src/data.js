@@ -3,33 +3,8 @@ import { getPermalink,  getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Landing',
+      text: 'About',
       links: [
-        {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
-        },
-      ],
-    },
-    {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features',
-          href: '#',
-        },
-        {
-          text: 'Pricing',
-          href: '#',
-        },
         {
           text: 'About us',
           href: '#',
@@ -49,8 +24,21 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Firestopping',
+      links: [
+        {
+          text: 'Types of products',
+          href: '/#products',
+        },
+        {
+          text: 'Most frequently purchased',
+          href: '/#common',
+        },
+        {
+          text: 'Firestopping certification',
+          href: '#',
+        },
+      ],
     },
     // {
     //   text: 'Blog',

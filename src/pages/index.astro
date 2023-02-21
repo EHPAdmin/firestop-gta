@@ -6,11 +6,11 @@ import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
-import LatestPosts from '~/components/blog/LatestPosts.astro';
+// import Steps from '~/components/widgets/Steps.astro';
+// import Content from '~/components/widgets/Content.astro';
+// import LatestPosts from '~/components/blog/LatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
+// import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const meta = {
@@ -49,60 +49,60 @@ const meta = {
   <Note />
 
   <!-- Features Widget *************** -->
-
-  <Features
-    highlight="Types of Products"
-    title="What we offer to help you"
-    subtitle="Firestop products are designed to prevent the spread of fire, smoke, and toxic gases through openings and gaps in walls, floors, and ceilings. There are several types of firestop products available in the market, including:"
-    items={[
-      [
-        {
-          title: 'Firestop sealants',
-          description:
-            'These are fire-resistant materials that are applied to joints, gaps, and penetrations in walls, floors, and ceilings to prevent the spread of fire and smoke.',
-          icon: 'tabler:brand-tailwind',
-        },
-        {
-          title: 'Firestop putties',
-          description:
-            'This type of product is used to fill gaps around cables, pipes, and other penetrations, providing a fire-resistant barrier',
-          icon: 'tabler:components',
-        },
-        {
-          title: 'Firestop pillows',
-          description:
-            'These are used to block openings in walls, floors, and ceilings, and are particularly effective in larger openings.',
-          icon: 'tabler:list-check',
-        },
-        {
-          title: 'Firestop boards',
-          description:
-            'These are rigid, fire-resistant boards that can be cut to size and installed around openings in walls, floors, and ceilings.',
-          icon: 'tabler:bulb',
-        },
-      ],
-      [
-        {
-          title: 'Firestop collars',
-          description: 'These products are installed around pipes and ducts, creating a fire-resistant seal.',
-          icon: 'tabler:rocket',
-        },
-        {
-          title: 'Firestop mortar',
-          description:
-            'This is a cement-like material that is used to fill large gaps in walls and floors to prevent the spread of fire.',
-          icon: 'tabler:arrows-right-left',
-        },
-        {
-          title: 'Firestop wrap',
-          description:
-            'This is a flexible, fire-resistant material that is used to wrap around cables, pipes, and other penetrations to create a seal.',
-          icon: 'tabler:bulb',
-        },
-      ],
-    ]}
-  />
-
+  <section id="products">
+    <Features
+      highlight="Types of Products"
+      title="What we offer to help you"
+      subtitle="Firestop products are designed to prevent the spread of fire, smoke, and toxic gases through openings and gaps in walls, floors, and ceilings. There are several types of firestop products available in the market, including:"
+      items={[
+        [
+          {
+            title: 'Firestop sealants',
+            description:
+              'These are fire-resistant materials that are applied to joints, gaps, and penetrations in walls, floors, and ceilings to prevent the spread of fire and smoke.',
+            icon: 'mdi:fire-off',
+          },
+          {
+            title: 'Firestop putties',
+            description:
+              'This type of product is used to fill gaps around cables, pipes, and other penetrations, providing a fire-resistant barrier',
+            icon: 'mdi:fire-off',
+          },
+          {
+            title: 'Firestop pillows',
+            description:
+              'These are used to block openings in walls, floors, and ceilings, and are particularly effective in larger openings.',
+            icon: 'mdi:fire-off',
+          },
+          {
+            title: 'Firestop boards',
+            description:
+              'These are rigid, fire-resistant boards that can be cut to size and installed around openings in walls, floors, and ceilings.',
+            icon: 'mdi:fire-off',
+          },
+        ],
+        [
+          {
+            title: 'Firestop collars',
+            description: 'These products are installed around pipes and ducts, creating a fire-resistant seal.',
+            icon: 'mdi:fire-off',
+          },
+          {
+            title: 'Firestop mortar',
+            description:
+              'This is a cement-like material that is used to fill large gaps in walls and floors to prevent the spread of fire.',
+            icon: 'mdi:fire-off',
+          },
+          {
+            title: 'Firestop wrap',
+            description:
+              'This is a flexible, fire-resistant material that is used to wrap around cables, pipes, and other penetrations to create a seal.',
+            icon: 'mdi:fire-off',
+          },
+        ],
+      ]}
+    />
+  </section>
   <!-- Content Widget **************** -->
   <!-- 
   <Content
@@ -204,67 +204,69 @@ const meta = {
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
-    title="Common products"
-    subtitle="These products are some of the most commonly used products for firestopping."
-    highlight="What the pros are using"
-    items={[
-      {
-        title: 'Headers',
-        description:
-          'In general, Headers contain information that makes it easier for visitors to interact with the website.',
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Display your product in action and how the Features actually create a solution for your target customer.',
-        icon: 'flat-color-icons:todo-list',
-      },
-      {
-        title: 'Content',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'icon-park:page-template',
-      },
-    ]}
-  />
+  <section id="common">
+    <Features2
+      title="Frequently Used"
+      subtitle="These products are some of the most commonly used products for firestopping."
+      highlight="What the pros are using"
+      items={[
+        {
+          title: 'Headers',
+          description:
+            'In general, Headers contain information that makes it easier for visitors to interact with the website.',
+          icon: 'flat-color-icons:template',
+        },
+        {
+          title: 'Heros',
+          description:
+            'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
+          icon: 'flat-color-icons:gallery',
+        },
+        {
+          title: 'Features',
+          description:
+            'Display your product in action and how the Features actually create a solution for your target customer.',
+          icon: 'flat-color-icons:todo-list',
+        },
+        {
+          title: 'Content',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          icon: 'flat-color-icons:document',
+        },
+        {
+          title: 'Call-to-Action',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          icon: 'flat-color-icons:advertising',
+        },
+        {
+          title: 'Pricing',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          icon: 'flat-color-icons:currency-exchange',
+        },
+        {
+          title: 'Testimonial',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          icon: 'flat-color-icons:voice-presentation',
+        },
+        {
+          title: 'Contact',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          icon: 'flat-color-icons:business-contact',
+        },
+        {
+          title: 'Footers',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+          icon: 'icon-park:page-template',
+        },
+      ]}
+    />
+  </section>
 
   <!-- HighlightedPosts Widget ******* -->
 
