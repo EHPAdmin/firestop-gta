@@ -14,7 +14,7 @@ export const headerData = {
           href: '/#common',
         },
         {
-          text: 'Firestopping certification',
+          text: 'Firestop training',
           href: '/firestop-training',
         },
       ],
