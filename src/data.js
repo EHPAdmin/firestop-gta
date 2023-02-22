@@ -10,7 +10,7 @@ export const headerData = {
           href: '/#products',
         },
         {
-          text: 'Favorite products',
+          text: 'Recommended products',
           href: '/#common',
         },
         {
@@ -23,11 +23,11 @@ export const headerData = {
       links: [
         {
           text: 'About us',
-          href: '#',
+          href: '/about',
         },
         {
           text: 'Contact',
-          href: '#',
+          href: '/about#contact',
         },
         {
           text: 'Terms',
