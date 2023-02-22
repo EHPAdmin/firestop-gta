@@ -1,7 +1,7 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'GTA Firestop',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
@@ -28,7 +28,7 @@ const CONFIG = {
   googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 
   blog: {
-    disabled: true,
+    disabled: false,
     postsPerPage: 4,
 
     post: {
