@@ -3,6 +3,22 @@ import { getPermalink,  getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
+      text: 'Firestopping',
+      links: [
+        {
+          text: 'Types of products',
+          href: '/#products',
+        },
+        {
+          text: 'Most frequently purchased',
+          href: '/#common',
+        },
+        {
+          text: 'Firestopping certification',
+          href: '/firestop-training',
+        },
+      ],
+    },{
       text: 'About',
       links: [
         {
@@ -20,23 +36,6 @@ export const headerData = {
         {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
-        },
-      ],
-    },
-    {
-      text: 'Firestopping',
-      links: [
-        {
-          text: 'Types of products',
-          href: '/#products',
-        },
-        {
-          text: 'Most frequently purchased',
-          href: '/#common',
-        },
-        {
-          text: 'Firestopping certification',
-          href: '#',
         },
       ],
     },

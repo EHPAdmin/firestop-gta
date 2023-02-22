@@ -1,0 +1,31 @@
+---
+import { SITE } from '~/config.mjs';
+import Layout from '~/layouts/PageLayout.astro';
+
+const meta = {
+  title: SITE.title,
+  description: SITE.description,
+  dontUseTitleTemplate: true,
+};
+---
+
+<Layout {meta}>
+  <div class="flex flex-col text-center relative max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="py-12">
+      <div class="text-center pb-10 md:pb-16 max-w-screen-lg mx-auto py-12">
+        <h1
+          class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading dark:text-gray-200"
+        >
+          Firestop Instructional Training
+        </h1>
+        <p class="text-xl text-slate-600 block mb-1">
+          STI Firestop offers a training course called "Firestop Installation Training" (FIT) which is designed to
+          provide education and hands-on training in the proper installation of firestop systems. The FIT course is
+          intended for contractors, installers, inspectors, and other professionals involved in the design,
+          construction, and maintenance of fire-rated building systems.
+        </p>
+      </div>
+    </div>
+    <!-- <h2 class=""></h2> -->
+  </div>
+</Layout>
