@@ -6,11 +6,11 @@ export const headerData = {
       text: 'Firestopping',
       links: [
         {
-          text: 'Types of products',
+          text: 'Types of firestopping',
           href: '/#products',
         },
         {
-          text: 'Most frequently purchased',
+          text: 'Favorite products',
           href: '/#common',
         },
         {
