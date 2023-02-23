@@ -2,7 +2,7 @@
 publishDate: 2023-01-06T00:00:00Z
 title: Firestopping in High-Rise Buildings - Challenges and Strategies
 excerpt: Firestopping is an essential component of fire protection systems in high-rise buildings. These tall structures pose unique challenges when it comes to fire protection, and firestopping is no exception.
-image: ~/assets/images/colors.jpg
+image: ~/assets/images/highrise.jpg
 tags:
   - landlords
   - commercial

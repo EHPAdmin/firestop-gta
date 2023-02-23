@@ -2,7 +2,7 @@
 publishDate: 2023-01-06T00:00:00Z
 title: Firestopping Best Practices - Tips and Techniques for Ensuring Proper Installation
 excerpt: Green building design and construction is becoming increasingly popular as a way to create more sustainable, energy-efficient buildings.
-image: ~/assets/images/colors.jpg
+image: ~/assets/images/green.jpg
 tags:
   - landlords
   - commercial

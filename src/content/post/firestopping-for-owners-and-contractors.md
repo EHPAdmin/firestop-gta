@@ -2,7 +2,7 @@
 publishDate: 2023-01-09T00:00:00Z
 title: Firestopping Products and Materials - A Guide for Building Owners and Contractors
 excerpt: There are several types of firestopping products available on the market, each with their unique properties and applications.
-image: ~/assets/images/tools.jpg
+image: ~/assets/images/contractors.jpg
 tags:
   - contractors
   - products

@@ -3,7 +3,7 @@ publishDate: 2023-01-12T00:00:00Z
 title: Firestopping in Older Buildings - Common Issues and Solutions
 description: Older buildings are particularly susceptible to fire risks due to the wear and tear of their structures over time.
 excerpt: Older buildings are particularly susceptible to fire risks due to the wear and tear of their structures over time. This risk is exacerbated when firestopping has not been adequately maintained or installed.
-image: ~/assets/images/do-more.jpg
+image: ~/assets/images/old-building.jpg
 category: Learning
 tags:
   - firestopping

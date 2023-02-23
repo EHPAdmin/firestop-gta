@@ -2,7 +2,7 @@
 publishDate: 2023-01-06T00:00:00Z
 title: Firestopping Best Practices - Tips and Techniques for Ensuring Proper Installation
 excerpt: Fire safety is a crucial aspect of building design and construction. Building owners have a responsibility to ensure that their properties are equipped with adequate fire protection systems to protect occupants and assets.
-image: ~/assets/images/colors.jpg
+image: ~/assets/images/proper-install.jpg
 tags:
   - landlords
   - commercial

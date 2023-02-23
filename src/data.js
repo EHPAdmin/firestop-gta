@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink,  getAsset } from './utils/permalinks';
+import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -18,16 +18,13 @@ export const headerData = {
           href: '/firestop-training',
         },
       ],
-    },{
+    },
+    {
       text: 'About',
       links: [
         {
           text: 'About us',
           href: '/about',
-        },
-        {
-          text: 'Contact',
-          href: '/about#contact',
         },
         {
           text: 'Terms',
@@ -44,11 +41,9 @@ export const headerData = {
       href: getBlogPermalink(),
     },
   ],
-  actions: [
-    { type: 'button', text: 'Shop now', href: 'https://ehp.ca/search?q=firestop' }
-  ],
+  actions: [{ type: 'button', text: 'Shop now', href: 'https://ehp.ca/search?q=firestop' }],
 };
-  
+
 export const footerData = {
   links: [
     {
@@ -87,4 +82,4 @@ export const footerData = {
 /*  footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
     Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
-  `,*/ 
+  `,*/

@@ -3,7 +3,7 @@ publishDate: 2023-01-08T00:00:00Z
 title: The Importance of Firestopping in Commercial and Residential Buildings
 description: Firestopping is crucial in both commercial and residential buildings as it can prevent fire from spreading and minimize damage to the structure.
 excerpt: Firestopping is crucial in both commercial and residential buildings as it can prevent fire from spreading and minimize damage to the structure.
-image: ~/assets/images/stickers.jpg
+image: ~/assets/images/residential.jpg
 category: Learning
 tags:
   - firestopping
