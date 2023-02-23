@@ -1,6 +1,7 @@
 ---
 import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const meta = {
   title: SITE.title,
@@ -10,26 +11,39 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <div class="flex flex-col text-center relative max-w-7xl mx-auto px-4 sm:px-6">
+  <div class="flex flex-col text-center relative max-w-7xl mx-auto px-4 py-12 sm:px-6">
     <div class="">
-      <div class="text-center pb-10 md:pb-16 max-w-screen-lg mx-auto">
+      <div class="text-center pb-10 md:pb-16 max-w-screen-lg mx-auto flex flex-col gap-4">
         <h1
           class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-6 font-heading dark:text-gray-200"
         >
           Firestop Instructional Training
         </h1>
-        <p class="text-xl text-slate-600 dark:text-white block mb-1">
-          STI Firestop offers a training course called "Firestop Installation Training" (FIT) which is designed to
-          provide education and hands-on training in the proper installation of firestop systems. The FIT course is
-          intended for contractors, installers, inspectors, and other professionals involved in the design,
-          construction, and maintenance of fire-rated building systems.
-        </p>
-        <br />
-        <p class="text-xl text-slate-600 dark:text-white block mb-1">
-          At xyz firestop we can assist you and your term with obtaining certifications in firestopping, and guide you
-          through the process of firestop installation training. Take a look below at some of the certifications we
-          recommend, and reach out to us to begin your training.
-        </p>
+        <div class="flex flex-col gap-4">
+          <p class="text-xl text-slate-600 dark:text-white block mb-1">
+            Firestop systems are an essential component of building safety and must be installed correctly to protect
+            against the spread of fire, smoke, and toxic gases. The Sealant, Waterproofing, and Restoration Institute
+            (SWRI) offers a comprehensive series of instructional courses for contractors, installers, and building
+            owners to become certified in firestop installation and maintenance. This article will provide an overview
+            of the STI Firestop Instructional Training Courses, including Firestop 101, Fit Level 1, Fit Level 2, and
+            Train the Trainer.
+          </p>
+          <p class="text-xl text-slate-600 dark:text-white block mb-1">
+            Firestop systems are highly dependent on proper design and installation for success in an actual fire. They
+            are the only code required life-safety items installed by every trade. The importance of proper training
+            cannot be understated to ensure that firestopping systems are installed correctly in the field.
+          </p>
+          <p class="text-xl text-slate-600 dark:text-white block mb-1">
+            At xyz firestop we can assist you and your term with obtaining certifications in firestopping, and guide you
+            through the process of firestop installation training. Take a look below at some of the certifications we
+            recommend, and reach out to us to begin your training.
+          </p>
+          <img
+            src="/training.jpg"
+            alt="A training showing the correct way to apply firestopping materials"
+            class="rounded-md shadow-2xl"
+          />
+        </div>
       </div>
 
       <div class="flex flex-col gap-20 md:grid grid-cols-2 mb-6">
@@ -41,11 +55,12 @@ const meta = {
           </h2>
           <img src="/101.png" alt="train the trainer badge" class="mx-auto mb-2" />
           <p class="text-xl text-slate-600 dark:text-white block mb-1">
-            The learner will understand the basic principles of how passive fire protection factors into the overall
-            life safety and code compliance of buildings and why firestopping is used today. They will learn how to read
-            the UL directory and locate appropriate tested systems for the application type. They will also gain an
-            understanding on how to identify where firestopping should be used and if an alternate solution may be
-            necessary as well as how to properly install the correct firestop product. (AIA 2 LUs|HSW; BICSI 2 CECs).
+            The Firestop 101 course is an introductory course designed for building owners, architects, engineers, and
+            anyone interested in learning about firestop systems. This course provides an overview of the purpose and
+            function of firestop systems, including the basic principles of fire protection and the types of firestop
+            systems available. The course covers the standards and codes that regulate firestop systems, including the
+            International Building Code, ASTM, and UL standards. Participants will learn how to identify fire-rated
+            construction assemblies and how to specify and design firestop systems.
           </p>
         </div>
         <div class="text-center max-w-screen-lg mx-auto">
@@ -56,14 +71,13 @@ const meta = {
           </h2>
           <img src="/lv1.png" alt="train the trainer badge" class="mx-auto mb-2" />
           <p class="text-xl text-slate-600 dark:text-white block mb-1">
-            Firestop systems are highly dependent on proper design and installation for success in an actual fire. They
-            are the only code required life-safety items installed by every trade. The importance of proper training
-            cannot be understated to ensure that firestopping systems are installed correctly in the field. This
-            comprehensive course is designed to educate and train participants in the fundamentals needed to become
-            proficient in the selection and proper installation of firestop systems. This course is excellent for
-            designers, contractor installers, code compliance officers, maintenance managers, life-safety officers, loss
-            reduction specialists and all other interested parties seeking a better understanding of the importance of
-            proper firestopping.
+            This course is excellent for designers, contractor installers, code compliance officers, maintenance
+            managers, life-safety officers, loss reduction specialists and all other interested parties seeking a better
+            understanding of the importance of proper firestopping. This course covers the fundamentals of firestop
+            installation, including the materials and tools needed for proper installation. Participants will learn how
+            to read and interpret firestop system installation drawings and specifications, as well as how to install
+            firestop systems correctly to ensure code compliance. This course also covers firestop system inspection and
+            testing procedures.
           </p>
         </div>
         <div class="text-center max-w-screen-lg mx-auto">
@@ -74,14 +88,11 @@ const meta = {
           </h2>
           <img src="/lv2.png" alt="train the trainer badge" class="mx-auto mb-2" />
           <p class="text-xl text-slate-600 dark:text-white block mb-1">
-            Firestop systems are highly dependent on proper design and installation for success in an actual fire. They
-            are the only code required life-safety items installed by every trade. The importance of proper training
-            cannot be understated to ensure that firestopping systems are installed correctly in the field. This
-            comprehensive course is designed to educate and train participants in the fundamentals needed to become
-            proficient in the selection and proper installation of firestop systems. This course is excellent for
-            designers, contractor installers, code compliance officers, maintenance managers, life-safety officers, loss
-            reduction specialists and all other interested parties seeking a better understanding of the importance of
-            proper firestopping.
+            The Fit Level 2 course is an advanced course for experienced firestop installers who want to deepen their
+            knowledge and skills. This course covers advanced installation techniques for complex firestop systems,
+            including through-penetration and joint systems. Participants will learn how to troubleshoot and solve
+            installation challenges, as well as how to maintain and repair firestop systems. The course also covers the
+            latest developments in firestop technology, including new materials and installation methods.
           </p>
         </div>
         <div class="text-center max-w-screen-lg mx-auto">
@@ -94,11 +105,30 @@ const meta = {
           <p class="text-xl text-slate-600 dark:text-white block mb-1">
             Those who attend FIT Level 2, achieve a passing score and attend the Train-theTrainer session are eligible
             to become a certified FIT Trainer. They will receive the Trainer’s Curriculum Kit which includes product
-            samples and other training materials.
+            samples and other training materials. The Train the Trainer course is designed for experienced firestop
+            professionals who want to become certified trainers. This course covers the principles of adult learning and
+            instructional design, as well as how to develop and deliver effective firestop training programs.
+            Participants will learn how to develop training materials, design instructional activities, and evaluate
+            learning outcomes. The course also covers best practices for classroom management and training delivery.
           </p>
         </div>
       </div>
     </div>
     <!-- <h2 class=""></h2> -->
+    <CallToAction
+      callToAction={{
+        text: 'Contact us',
+        href: 'mailto:customerservice@ehp.ca',
+        icon: 'tabler:arrow-down-right',
+      }}
+    >
+      <Fragment slot="title">
+        Get certified with GTA Firestopping <br class="block sm:hidden" /><span class="sm:whitespace-nowrap"></span>
+      </Fragment>
+
+      <Fragment slot="subtitle">
+        Get in touch with us to find out how today. <br class="hidden md:inline" />
+      </Fragment>
+    </CallToAction>
   </div>
 </Layout>
